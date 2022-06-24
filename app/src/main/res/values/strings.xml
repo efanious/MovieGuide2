@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MovieGuide2</string>
+    <string name="enter">Enter</string>
+    <string name="movie_guide_app">Movie Guide App</string>
 </resources>
