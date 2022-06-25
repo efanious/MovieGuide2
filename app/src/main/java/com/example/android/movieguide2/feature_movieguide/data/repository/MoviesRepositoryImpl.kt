@@ -4,11 +4,9 @@ import com.example.android.movieguide2.feature_movieguide.data.remote.MovieGuide
 import com.example.android.movieguide2.feature_movieguide.data.remote.dto.TrendingMoviesResponse
 
 
-class MoviesRepositoryImpl(private val movieGuideApi: MovieGuideApi)
-    //: MoviesRepository
-{
+class MoviesRepositoryImpl(private val movieGuideApi: MovieGuideApi) : MoviesRepository {
 
-//    override suspend fun getTrendingMovies(): TrendingMoviesResponse {
-//        return movieGuideApi.getTrendingMovies()
-//    }
+    override suspend fun getTrendingMovies(): TrendingMoviesResponse {
+        return movieGuideApi.getTrendingMovies()
+    }
 }
