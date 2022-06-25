@@ -2,4 +2,8 @@
     <string name="app_name">MovieGuide2</string>
     <string name="enter">Enter</string>
     <string name="movie_guide_app">Movie Guide App</string>
+    <string name="imdb_image_icon">IMDB image icon</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="trending">Trending</string>
+    <string name="favourites">Favourites</string>
 </resources>
