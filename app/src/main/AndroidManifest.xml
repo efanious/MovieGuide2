@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.movieguide2">
 
-
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:name=".MovieGuideApp"
@@ -13,6 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MovieGuide2">
+        <activity
+            android:name=".feature_movieguide.presentation.trending.TrendingActivity"
+            android:exported="false" />
         <activity
             android:name=".feature_movieguide.presentation.HomeActivity"
             android:exported="false" />
