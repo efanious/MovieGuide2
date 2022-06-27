@@ -5,10 +5,9 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import com.example.android.movieguide2.R
-import dagger.hilt.android.AndroidEntryPoint
 
 
-@AndroidEntryPoint
+//@AndroidEntryPoint
 class TrendingActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -14,3 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MovieGuide2"
 include ':app'
+
+
+//repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)

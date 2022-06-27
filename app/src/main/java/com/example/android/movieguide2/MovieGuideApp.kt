@@ -5,6 +5,8 @@ import dagger.hilt.android.HiltAndroidApp
 
 
 @HiltAndroidApp
-class MovieGuideApp: Application() {
-
+class MovieGuideApp: Application(){
+    override fun onCreate() {
+        super.onCreate()
+    }
 }

@@ -4,7 +4,6 @@ import com.example.android.movieguide2.feature_movieguide.data.remote.MovieGuide
 import com.example.android.movieguide2.feature_movieguide.data.remote.dto.TrendingMoviesResponse
 import javax.inject.Inject
 
-
 class MoviesRepositoryImpl @Inject constructor(private val movieGuideApi: MovieGuideApi) :
     MoviesRepository {
 
