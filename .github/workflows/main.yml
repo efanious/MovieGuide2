@@ -39,6 +39,6 @@ jobs:
           - name: Build Android App
        run: sparkfabrik/android-build-action@v1.2.0
        with:
-        project-path: android
-        output-path: my-app.apk
+        output-path: my-app-ci.apk
+        build-type: assemble
 
