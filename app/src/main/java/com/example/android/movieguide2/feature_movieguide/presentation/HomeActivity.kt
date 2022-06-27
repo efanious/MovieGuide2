@@ -8,7 +8,7 @@ import com.example.android.movieguide2.R
 import com.example.android.movieguide2.feature_movieguide.presentation.trending.TrendingActivity
 import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
