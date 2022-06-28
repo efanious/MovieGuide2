@@ -12,8 +12,9 @@ import java.lang.Exception
 import javax.inject.Inject
 
 
-@HiltViewModel
-class TrendingViewModel @Inject constructor(private val moviesRepositoryImpl: MoviesRepositoryImpl) :
+//@HiltViewModel
+//@Inject constructor
+class TrendingViewModel (private val moviesRepositoryImpl: MoviesRepositoryImpl) :
     ViewModel() {
 
     private val _response = MutableLiveData<TrendingMoviesResponse>()
