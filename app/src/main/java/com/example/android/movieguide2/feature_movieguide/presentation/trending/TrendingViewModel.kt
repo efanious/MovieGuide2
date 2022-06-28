@@ -14,8 +14,13 @@ import javax.inject.Inject
 
 //@HiltViewModel
 //@Inject constructor
-class TrendingViewModel (private val moviesRepositoryImpl: MoviesRepositoryImpl) :
+@HiltViewModel
+class TrendingViewModel @Inject constructor(private val moviesRepositoryImpl: MoviesRepositoryImpl) :
     ViewModel() {
+
+//    //@Inject lateinit var moviesRepositoryImpl: MoviesRepositoryImpl
+//    private val movFetch: MoviesRepositoryImpl = movieFetcher.moviesRepositoryImpl
+
 
     private val _response = MutableLiveData<TrendingMoviesResponse>()
 
